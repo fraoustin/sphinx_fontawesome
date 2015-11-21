@@ -1,0 +1,26 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+    tools for generate list of icons from source of Font-Awesome
+"""
+
+import urllib
+import yaml
+
+URL_ICONS = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/src/icons.yml" 
+
+icons =  yaml.load(urllib.urlopen(URL_ICONS).read())['icons']
+with open('../sphinx_fontawesome/constant.py', 'a') as f:
+    f.write("""#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+\"\"\"
+    list of icons Font-Awesome
+\"\"\"
+
+icons = [
+""")
+    for icon in icons:
+        f.write("\t'%s',\n" % icon['id'])
+    f.write("""]
+# generate by tools/list_icons""")
