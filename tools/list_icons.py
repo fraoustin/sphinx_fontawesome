@@ -22,5 +22,8 @@ icons = [
 """)
     for icon in icons:
         f.write("\t'%s',\n" % icon['id'])
+        if 'aliases' in icon:
+            for alias in icon['aliases']:
+                f.write("\t'%s',\n" % alias)
     f.write("""]
 # generate by tools/list_icons""")
