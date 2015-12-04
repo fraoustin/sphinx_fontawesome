@@ -55,7 +55,7 @@ In your rst file, you can use
     |square-o|
 
 If you have changed the value of rst_prolog in your conf.py, and you'd like to use subsitution you
-can add `sphinx_fontawesome.prolog` to it.
+can add ``sphinx_fontawesome.prolog`` to it.
 
 ::
 
