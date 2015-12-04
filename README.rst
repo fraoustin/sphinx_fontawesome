@@ -54,12 +54,12 @@ In your rst file, you can use
     |check|
     |square-o|
 
-If you change in your conf.py a value of prolog_rst, and you use subsitution you
-can add in prolog_rst sphinx_fontawesome.prolog
+If you have changed the value of rst_prolog in your conf.py, and you'd like to use subsitution you
+can add `sphinx_fontawesome.prolog` to it.
 
 ::
 
-    prolog_rst = sphinx_fontawesome.prolog + "my prolog"
+    rst_prolog = sphinx_fontawesome.prolog + "my prolog"
 
 For add css fontawesome, you can cssfiles option of your theme
 
