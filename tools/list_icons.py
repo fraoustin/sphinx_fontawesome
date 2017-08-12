@@ -11,7 +11,7 @@ import yaml
 URL_ICONS = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/src/icons.yml" 
 
 icons =  yaml.load(urllib.urlopen(URL_ICONS).read())['icons']
-with open('../sphinx_fontawesome/constant.py', 'a') as f:
+with open('../sphinx_fontawesome/constant.py', 'w') as f:
     f.write("""#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 \"\"\"
