@@ -66,7 +66,7 @@ For add css fontawesome, you can cssfiles option of your theme
 ::
 
     html_theme_options = {
-        'cssfiles': ["http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"]
+        'cssfiles': ["http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"]
     }
 
 or create _templates/layout.html
@@ -76,7 +76,7 @@ or create _templates/layout.html
     {%- extends "yourtheme/layout.html" %}
     {%- block extrahead %}
     {{ super() }}
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     {% endblock %}
 
 You can generate todo list if you add in css (as font-awesome css)
