@@ -14,7 +14,7 @@ import docutils.parsers.rst.directives as directives
 
 import sphinx_fontawesome.constant
 
-__version_info__ = (0, 0, 3)
+__version_info__ = (0, 0, 4)
 __version__ = '.'.join([str(val) for val in  __version_info__])
 
 sub_special = [
