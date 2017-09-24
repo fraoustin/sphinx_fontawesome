@@ -4,10 +4,8 @@ import os
 import codecs
 from setuptools import setup, find_packages
 
-import sphinx_fontawesome
-
 name = "sphinx_fontawesome"
-__version_info__ = (0, 0, 5)
+__version_info__ = (0, 0, 6)
 version = '.'.join([str(val) for val in  __version_info__])
 desc = "add directive for fontawesome in sphinx"
 urlpkg = "https://github.com/fraoustin/sphinx_fontawesome"
