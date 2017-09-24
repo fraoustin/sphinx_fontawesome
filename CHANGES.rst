@@ -1,3 +1,8 @@
+0.0.5
+=====
+
+- correction setup.py not call sphinx_fontawesome
+
 0.0.4
 =====
 
