@@ -1,3 +1,14 @@
+0.1.0
+=====
+
+- Changed license to 3-Clause BSD, so this Sphinx extension doesn't conflict with the license of Sphinx itself (3-Clause BSD).
+  See `issue #7 <https://github.com/fraoustin/sphinx_fontawesome/issues/7>`__ for more details.
+
+0.0.6
+=====
+
+- tbd
+
 0.0.5
 =====
 
@@ -24,4 +35,4 @@
 0.0.1
 =====
 
-initialize extension
+- initial extension
